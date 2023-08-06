@@ -1,0 +1,11 @@
+.a{
+	background: gray;
+}
+.b{
+	box-sizing: square;
+	height: 75%;
+	width: 30%;
+	background: green;
+	padding-top: 100px;
+}
+

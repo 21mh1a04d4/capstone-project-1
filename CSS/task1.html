@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="task1.css">
+</head>
+<body>
+    <div>
+        <div class="first">
+            <header id="header">
+                <h1 id="epam">< epam ></h1>
+                <h2>HTML Elements</h2>
+            </header>
+            <hr>
+            <div class="row">
+                <nav>
+                    <a href="#home">Home</a>
+                    <a href="#header">headers</a>
+                    <a href="#table">Table</a>
+                    <a href="#textformats">Text formats</a>
+                    <a href="#blockquotes">Blockquotes</a>
+                </nav>
+            </div>
+            <hr>
+        </div>
+        <div id="home">
+            <h2>home</h2>
+            <p>pay attention to h1 tag inside section .font-size for h1 is the same as font-size for
+                because we have to use only one h1 ont teh page
+            </p>
+            <h2>Header 2</h2>
+            <h3>header 3</h3>
+            <h4>header 4</h4>
+            <h5>header 5</h5>
+            <h6>header 6</h6>
+            <p>
+                <b>Lorem ipsum dolor sit</b>, amet consectetur adipisicing elit. Aliquam magnam excepturi, <i>voluptatibus voluptates </i>hic voluptatem at ut, porro et quae sapiente obcaecati! Quibusdam tenetur a odio, repellat et reprehenderit sapiente ipsam temporibus incidunt quas exercitationem, modi enim esse quis doloremque ex laudantium consequatur vitae<mark> omnis quam</mark>. Molestias, dicta obcaecati. Est.
+            </p>
+            <br/>
+            <p>
+                <span>
+                    Html and css Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque impedit alias iure light school  <del>reprehenderit</del> <mark>sed quo odio quod</mark>. Quam.
+                </span>
+            </p>
+        </div>
+        <div id="table">
+            <h3>Table</h3>
+            <table class="table" border="">
+                    <tr>
+                        <td>header</td>
+                        <td>header2</td>
+                        <td>header3</td>
+                    </tr>
+                    <tr>
+                        <td>sunny</td>
+                        <td>moon</td>
+                        <td>sun</td>
+                    </tr>
+                    <tr>
+                        <td>bihar</td>
+                        <td>uttar pardesh</td>
+                        <td>imphal</td>
+                    </tr>
+                    <tr>
+                        <td>delhi</td>
+                        <td>aditya</td>
+                        <td>hostel</td>
+                    </tr>
+            </table>
+        </div>
+        <div>
+            <h3>list</h3>
+            <h2>unordred list</h2>
+            <ul>
+                <li>list item 1</li>
+                <li>List item 2
+                    <ul>
+                        <li>some nested list item 1s</li>
+                    </ul>
+                </li>
+            </ul>
+            <h2>orderd list</h2>
+            <ol>
+                <li>list item1</li>
+                <li>second ordered list
+                    <ol type="A">
+                        <li>some nested list item 1</li>
+                    </ol>
+                </li>
+                <li>item 3</li>
+            </ol>
+            <h3>definition list</h3>
+            <dl>
+                <dt>defines terms 1</dt>
+                <dd>description 1</dd>
+                <dt>defines terms 2</dt>
+                <dd>description 2</dd>
+            </dl>
+            <label for="selector">Details</label>
+            <select id="selector">
+                <option value="html">html</option>
+                <option value="css">css</option>
+                <option value="cpp">c++</option>
+            </select>
+        </div>
+        <div id="textformats">
+            <h2>Text formats</h2>
+            <h2>Article text</h2>
+            <span>article descripiton</span>
+            <br/>
+            <span class="span">preformatted text</span>
+            <section>
+                    <pre>
+                                text 
+                        in a prce element 
+                        is depancedd findex
+                        both
+                           space and texi
+                              line break        
+
+                    </pre>
+            </section>
+            <span class="span">code</span>
+            <section>
+                <pre>
+                    .wapper{
+                        desplay:fex;
+                        verical-align:middle;
+                        justify-content:center;
+                    }
+                </pre>
+            </section>
+        </div>
+        <div id="blockquotes">
+            <span class="span">blockquotes</span>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Cupiditate vel numquam obcaecati molestiae minima ratione 
+                itaque sint commodi quaerat. Incidunt, debitis pariatur 
+                necessitatibus aliquid dicta blanditiis amet nesciunt? Ratione, odit?
+            </p>
+            <a href="https://en.wikipedia.org/wiki/Elon_Musk" target="_blank">Elon musk</a>
+        </div>
+        <div class="form">
+            <form>
+            <lable for="name">first name:</lable>
+            <input type="text" id="name"><br>
+            <lable for="surname">surname</lable>
+            <input type="text" id="suname"><br>
+            <lable for="e">email:</lable>
+            <input type="email" id="e"><br>
+            <textarea id="textarea"></textarea><br>
+            <button>submit</button>
+            </form>
+        </div>
+        <footer>
+            <span id="footer">&#169; Copyright Epam Systems</span>
+        </footer>
+    </div>
+</body>
+</html>
